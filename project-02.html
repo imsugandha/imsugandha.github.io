@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Content Detection and Analysis &mdash; Apache Tika &mdash; Big Data Analysis</title>
+<meta name="description" content="Page description goes here">
+
+<!-- ******************************************************************************************
+Set the type and color theme here - the Pro version contains additional themes -->
+<link href="css/hawthorne_type2_color4.css" rel="stylesheet">
+<!--  ************************************************************************************* -->
+
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<script src="js/vendor/modernizr.js"></script>
+
+</head>
+<body>
+
+<div class="top-border"></div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 small-centered columns">
+		<header>
+			<h1>Aashish Sood</a></h1>
+			<h2>SOFTWARE ENGINEER</a></h2>
+			<!--
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt="Your Name Here" /></a>
+			</div>
+			-->
+		</header>
+	</div>
+	<div class="small-12 medium-12 large-12 small-centered columns">
+		<nav>
+			<ul class="inline-list-custom">
+				<li><a href="index.html">About Me</a></li>
+				<li><a href="projects.html">Selected Work</a></li>
+				<li><a href="Blog.html">Blog</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-7 large-7 columns">
+		<h2>Analysis and Visualization of UFO sighting dataset</h2>
+		<br>
+		<h3>Why the study?</h3>
+		<p>
+			To analyze -
+			<ul>
+				<li>Unintended consequences of merging multiple datasets</li>
+				<li>Impact of joined datasets on improving value and veracity of data</li>
+			</ul>
+		</p>
+		<h3>What I did?</h3>
+		<p>
+			To analyze -
+			<ul>
+				<li>Developed python scripts to scrape websites and fetch data fron REST API's to capture four datasets :-</li>
+					<ul style="list-style-type:none">
+						<li>- Airports Dataset ( http://ourairports.com/data/airports.csv)</li>
+						<li>- Meteorite Landings Dataset: Mime Type – Application/JSON<br>
+							&nbsp;&nbsp;<i>Source</i> - https://data.nasa.gov/resource/y77d-th95.json?$limit=50000</li>
+
+						<li>- Census Data: MIME Type – text/CSV<br>&nbsp;&nbsp; <i>Source</i> - https://github.com/grammakov/USA-cities-and-states?files=1</li>
+						<li>- Sci-Fi Movies: Mime Type – text/HTML<br>&nbsp;&nbsp;<i>Source</i> - https://en.wikipedia.org/wiki/Lists_of_science_fiction_films</li>
+					</ul>
+				<li>Developed python scripts to capture geolocation of nearest airport to the sightings using geocode APIs. Used Memcached to limit the number of queries fired to geocode API.</li>
+				<li> Used Jaccard Similarity and Cosine Similarity to identify hidden clusters in the joined dataset. </li>
+			</ul>
+		</p>
+		<h3>What I found?</h3>
+		<p>
+			<ul>
+				<li>90% of the UFO sightings occurred where the nearest airport was less than 25 miles away.</li>
+				<li>Most sightings happened in rural areas.</li>
+				<li>Highly sighted UFO locations are sparsely populated.</li>
+			</ul>
+		</p>
+	    <h3>Technologies Used:</h3>
+	    <ul>
+	    <li>Python</li>
+	    <li>Apache Tika</li>
+	    <li>JAVA 8</li>
+	    <li>D3.js</li>
+	    <li>K-Means Clustering</li>
+	    </ul>
+		</p>
+	</div>
+	<div class="small-12 medium-5 large-5 columns">
+		<div class="lined-list">
+			<ul>
+				<li><strong>Role:</strong> Developer</li>
+				<li><strong>Event:</strong> Coursework:- CSCI 599 Big Data Analysis </li>
+				<li><strong>Location:</strong> University of Southern California, Los Angeles</li>
+				<li><strong>Year:</strong> Spring 2018</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<hr class="project-detail-hr" />
+
+		<!-- Begin project image -->
+		<!--<div class="project-img">
+			<img src="img/projects/Unigram.png" alt="Project 01a" />
+			<h6>Source: http://recognize-speech.com/language-model/n-gram-model/comparison</h6>
+		</div>-->
+		<!-- End project image -->
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<p class="back-to-top-holder"><a class="back-to-top"><i class="fa fa-chevron-circle-up fa-3x"></i></a></p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<footer>
+			<ul>
+				<li>&copy; 2018 <a href="index.html">Aashish Sood</a>. All rights reserved.</li>
+				<li><a href="mailto:sooda@usc.edu"><i class="fa fa-envelope-o"></i> sooda@usc.edu</a></li>
+
+				<!-- *****************************************************************************************
+				The "Powered by Type & Grids" link in the footer is required in the Free version
+				typeandgrids.com/pirates -->
+				<li>Powered by <a href="http://www.typeandgrids.com" target="_blank">Type &amp; Grids</a></li>
+				<!--  ************************************************************************************ -->
+
+			</ul>
+			<center>
+			<div class='links fade-in two'>
+				<a href='mailto:sooda@usc.edu'>
+	        <span class="fa-stack">
+	          <i class='fa fa-circle fa-stack-2x'></i>
+	          <i class='fa fa-envelope fa-stack-1x fa-inverse'></i>
+	        </span>
+	      </a>
+	      <a href='https://github.com/Aashish1Sood'>
+	        <span class="fa-stack">
+	          <i class='fa fa-circle fa-stack-2x'></i>
+	          <i class='fa fa-github fa-stack-1x fa-inverse'></i>
+	        </span>
+	      </a>
+	      <a href='https://www.linkedin.com/in/aashish-sood-36064126/'>
+	        <span class="fa-stack">
+	          <i class='fa fa-circle fa-stack-2x'></i>
+	          <i class='fa fa-linkedin fa-stack-1x fa-inverse'></i>
+	        </span>
+	      </a>
+    </div>
+    </center>
+		</footer>
+	</div>
+</div>
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/hawthorne.js"></script>
+
+</body>
+</html>

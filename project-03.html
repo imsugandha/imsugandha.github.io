@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title> Deep Learning Object Recognition and Image Captioning &mdash;</title>
+<meta name="description" content="Page description goes here">
+
+<!-- ******************************************************************************************
+Set the type and color theme here - the Pro version contains additional themes -->
+<link href="css/hawthorne_type2_color4.css" rel="stylesheet">
+<!--  ************************************************************************************* -->
+
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<script src="js/vendor/modernizr.js"></script>
+
+</head>
+<body>
+
+<div class="top-border"></div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 small-centered columns">
+		<header>
+			<h1>Aashish Sood</a></h1>
+			<h2>SOFTWARE ENGINEER</a></h2>
+			<!--
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt="Your Name Here" /></a>
+			</div>
+			-->
+		</header>
+	</div>
+	<div class="small-12 medium-12 large-12 small-centered columns">
+		<nav>
+			<ul class="inline-list-custom">
+				<li><a href="index.html">About Me</a></li>
+				<li><a href="projects.html">Selected Work</a></li>
+				<li><a href="Blog.html">Blog</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-7 large-7 columns">
+		<h2>UFO Dataset Enrichment: OCR Extraction and Image Captioning </h2>
+		<br>
+		<h3>Why the study?</h3>
+		<p>Enrich the UFO sightings Datset by :-
+			<ul>
+				<li>Extracting UFO sightings from PDF documents.</li>
+				<li>Extracting UFO sightings from Images.</li>
+			</ul>
+		</p>
+		<h3>What I did?</h3>
+		<p>
+			To analyze -
+			<ul>
+				<li>Two more datasets available as PDF and images were merged into the existing combined dataset.</li>
+					<ul style="list-style-type:none">
+						<li>- PDF documents of UFO sightings from the United Kingdom.<br>
+						 &nbsp;&nbsp;<i>Source</i> - http://www.theblackvault.com/documentarchive/united-kingdom-ufo-documents/ </li>
+						<li>- Scraped 3500 images of UFO sightings reported on ufostalker.com by public<br>
+							&nbsp;&nbsp;<i>Source</i> - http://ufostalker.com/</li>
+					</ul>
+				<li>Extracted features from PDFs using Tesseract toolkit by building an OCR pipeline to clean and feature-ize the extracted text.</li>
+				<li>Extracted features from images using Inceptionv4 model by identifying objects</li>
+				<li>Used Apache Tika to extract metadata features fromimages such as Creation date and geolocation </li>
+				<li>Generated captions for identified objects using re-trained Inceptionv4 and Neural Image Caption Generator</li>
+				<li>Re-Trained the last layer of Inceptionv4 model to generate better captions</li>
+				<li>Used multiple NER-taggers on the Captions, Metadata and Description fields to featurize datset.</li>
+			</ul>
+		</p>
+		<h3>What did I learn?</h3>
+		<p>
+			<ul>
+				<li>Importance of manual Data cleaning if data is too noisy as it was in PDFs.</li>
+				<li>Inceptionv4 couldn't provide good results for images clicked with mostly sky or field in the background </li>
+			</ul>
+		</p>
+	    <h3>Technologies Used:</h3>
+	    <ul>
+	    <li>Python</li>
+	    <li>Apache Tika</li>
+	    <li>JAVA 8</li>
+	    <li>Tesseract</li>
+			<li>Docker</li>
+	    <li>TensorFlow</li>
+	    </ul>
+		</p>
+	</div>
+	<div class="small-12 medium-5 large-5 columns">
+		<div class="lined-list">
+			<ul>
+				<li><strong>Role:</strong> Developer</li>
+				<li><strong>Event:</strong> Coursework:- CSCI 599 Big Data Analysis </li>
+				<li><strong>Location:</strong> University of Southern California, Los Angeles</li>
+				<li><strong>Year:</strong> Spring 2018</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<hr class="project-detail-hr" />
+
+		<!-- Begin project image -->
+		<!--<div class="project-img">
+			<img src="img/projects/Project3_Spark.png" alt="Project 03a"  width="60%" />
+			<h6>Source: https://www.edureka.co/blog/apache-spark-vs-hadoop-mapreduce</h6>
+		</div>-->
+		<!-- End project image -->
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<p class="back-to-top-holder"><a class="back-to-top"><i class="fa fa-chevron-circle-up fa-3x"></i></a></p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<footer>
+			<ul>
+				<li>&copy; 2018 <a href="index.html">Aashish Sood</a>. All rights reserved.</li>
+				<li><a href="mailto:sooda@usc.edu"><i class="fa fa-envelope-o"></i> sooda@usc.edu</a></li>
+
+				<!-- *****************************************************************************************
+				The "Powered by Type & Grids" link in the footer is required in the Free version
+				typeandgrids.com/pirates -->
+				<li>Powered by <a href="http://www.typeandgrids.com" target="_blank">Type &amp; Grids</a></li>
+				<!--  ************************************************************************************ -->
+
+			</ul>
+			<center>
+			<div class='links fade-in two'>
+				<a href='mailto:sooda@usc.edu'>
+					<span class="fa-stack">
+						<i class='fa fa-circle fa-stack-2x'></i>
+						<i class='fa fa-envelope fa-stack-1x fa-inverse'></i>
+					</span>
+				</a>
+				<a href='https://github.com/Aashish1Sood'>
+					<span class="fa-stack">
+						<i class='fa fa-circle fa-stack-2x'></i>
+						<i class='fa fa-github fa-stack-1x fa-inverse'></i>
+					</span>
+				</a>
+				<a href='https://www.linkedin.com/in/aashish-sood-36064126/'>
+					<span class="fa-stack">
+						<i class='fa fa-circle fa-stack-2x'></i>
+						<i class='fa fa-linkedin fa-stack-1x fa-inverse'></i>
+					</span>
+				</a>
+    </div>
+    </center>
+		</footer>
+	</div>
+</div>
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/hawthorne.js"></script>
+
+</body>
+</html>
